@@ -48,14 +48,15 @@ public class Main {
 			System.out.print("8.) View stores  : \n");
 			System.out.print("9.) View statstics numbers  : \n");
 			System.out.print("10.) View statstics numbers of first lanuch of website : \n");
-			System.out.print("11.) Exit\n");
+			System.out.print("11.) My new great function");
+			System.out.print("12.) Exit\n");
 			System.out.print("\nEnter Your Menu Choice: ");
 
 			choice = input.nextInt();
 
 		}
 
-		while (choice > 12);
+		while (choice > 13);
 
 		switch (choice) {
 
@@ -105,8 +106,10 @@ public class Main {
 			System.out.println("Number of stores viewed : " + statt.getNumberOfStores_visited());
 			System.out.println("Number of products bought : " + statt.getNumberOfProducts_bought());
 			break;
-
 		case 11:
+			System.out.println("My new function is working 7elw");
+			System.out.println("Here's the logic");
+		case 12:
 			System.out.println("Exiting Program...");
 			System.exit(0);
 			break;
@@ -114,7 +117,7 @@ public class Main {
 		}
 
 		// Bad Menu Option Direct
-		if (choice > 11 || choice < 1) {
+		if (choice > 12 || choice < 1) {
 			System.out.println("This is not a valid Menu Option! Please Select Another.");
 			do {
 				choice = input.nextInt();
