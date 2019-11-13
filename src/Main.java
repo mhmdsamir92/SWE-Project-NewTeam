@@ -106,8 +106,9 @@ public class Main {
 			System.out.println("Number of stores viewed : " + statt.getNumberOfStores_visited());
 			System.out.println("Number of products bought : " + statt.getNumberOfProducts_bought());
 			break;
-		case 13:
+		case 11:
 			System.out.println("My new function is working 7elw");
+			System.out.println("Here's the logic");
 		case 12:
 			System.out.println("Exiting Program...");
 			System.exit(0);
