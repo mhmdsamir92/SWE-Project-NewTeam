@@ -1,0 +1,6 @@
+hg
+kl
+ii
+NewStore
+Location
+Type
